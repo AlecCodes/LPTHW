@@ -1,0 +1,22 @@
+class ask(object):
+	def __init__(self, room):
+		self.room = room
+		self.counter = 0
+	def ask_user(self):
+		while self.counter < 3:
+			answer = self.room.ask()
+			print("Your answer was " + str(answer))
+			self.counter += 1
+		print("Finished!")
+		
+
+class room(object):
+	def ask(self):
+		self.response = input("> ")
+		return self.response
+
+
+room1 = room()
+inst = ask(room1)
+inst.ask_user()
+

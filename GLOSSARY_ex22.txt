@@ -1,0 +1,16 @@
+{} = Curly brackets used for Dictionaries, and placeholders for string formatting.
+[] = bracket used for lists
+() = contains the args/parameters of a function, or seperates a value from another like in math
+* = unpacker. 
+; = semicolon can be used to put two lines of code together
+: = colon used for lambda function
+\ = for using quotes within a string! (also used to mark the end of positional args?)
+\n = line break
+f = format the string w {} placeholders
+, = used to seperate different values
+w = write when used as second argument in open
+r = read ||
+b'' = tells python were working with raw bytes
+" = string denotation 
+<> = if values of two operands are not equal, returns True
+
